@@ -104,3 +104,17 @@ nav {
     justify-content: center;
 }
 
+/*Footer*/
+#social-icons {
+    background-color: black;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-icons i {
+    font-size: 160%;
+    padding: 5%;
+}
