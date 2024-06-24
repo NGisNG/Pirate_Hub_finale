@@ -104,6 +104,13 @@ nav {
     justify-content: center;
 }
 
+/*Main*/
+main {
+    /*make main element take any surpriced space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 70px;
+}
+
 /*Footer*/
 #social-icons {
     background-color: black;
