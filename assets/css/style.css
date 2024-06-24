@@ -178,4 +178,15 @@ h3 {
     .nav-toggle-label {
         display: none;
     }
+
+    .logo-container {
+        size: 400%;
+        margin-bottom: 12px;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate lager header */
+        margin-top: 79px;
+    }
 }
