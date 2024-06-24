@@ -34,3 +34,8 @@ header {
     align-items: flex-end;
     text-decoration: none;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
