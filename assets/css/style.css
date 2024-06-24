@@ -133,6 +133,15 @@ main {
     margin-bottom: 35%;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
 /*Footer*/
 #social-icons {
     background-color: black;
