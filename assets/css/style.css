@@ -225,4 +225,14 @@ h3 {
     #hero-text {
         margin-bottom: 15%;
     }
+
+    /* About us section*/
+    #about-us-bg h2 {
+        font-size: 200%;
+    }
+
+    #about-us p {
+        font-size: 170%;
+        padding-bottom: 40px;
+    }
 }
