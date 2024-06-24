@@ -189,4 +189,9 @@ h3 {
         /* Push main content down to accommodate lager header */
         margin-top: 79px;
     }
+
+    /* Hero text */
+    #hero-text {
+        margin-bottom: 15%;
+    }
 }
