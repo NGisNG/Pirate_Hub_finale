@@ -173,6 +173,52 @@ h3 {
     margin: auto;
 }
 
+/* Sign-up section*/
+#sign-up {
+    background: url("../images/Kraken-treasure-chest.webp") no-repeat center center/cover;
+    min-height: 500px;
+    width: 100%;
+}
+
+.sign-up-container {
+    display: grid;
+    grid-template-rows: repeat(1, 280px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.signup-text {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 170%;
+    color: white;
+    background-color: rgba(95, 95, 95, 0.233);
+    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+}
+
+
+.item p {
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+    font-size: 130%;
+    background-color: rgba(95, 95, 95, 0.233);
+    bottom: 10px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 15%;
+    margin: auto;
+
+}
+
+.item2 {
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
 /*Footer*/
 #social-icons {
     background-color: black;
