@@ -374,6 +374,19 @@ hr {
         padding-bottom: 50px;
         font-size: 150%;
     }
+
+    /* About us page */
+    #about-us-page {
+        height: auto;
+    }
+
+    #about-us-page h2 {
+        font-size: 200%;
+    }
+
+    #about-us-page  p{
+        font-size: 120%;
+    }
 }
 
 
@@ -439,5 +452,20 @@ hr {
     .item p {
         padding-bottom: 80px;
         font-size: 200%;
+    }
+
+    /* About us page */
+    #about-us-page {
+        height: auto;
+        font-size: 140%;
+    }
+
+    #about-us-page h2 {
+        font-size: 200%;
+        padding-top: 70px;
+    }
+
+    #about-us-page p {
+        font-size: 120%;
     }
 }   
