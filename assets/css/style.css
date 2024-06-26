@@ -271,6 +271,39 @@ h3 {
     padding: 5%;
 }
 
+/* About us page */
+.about-container {
+    background: url("../images/old-world-map.webp") no-repeat center center/cover;
+    height: auto;
+    width: 100%;
+}
+
+#about-us-page h2 {
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+    background-color: rgba(231, 231, 231, 0.226);
+    padding: 20px;
+}
+
+hr {
+    margin: 0 20px;
+}
+
+
+#about-us-page p {
+    font-family: 'Poiret One', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(231, 231, 231, 0.226);
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     nav {
