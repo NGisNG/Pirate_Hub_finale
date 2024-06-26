@@ -236,3 +236,54 @@ h3 {
         padding-bottom: 40px;
     }
 }
+
+
+/* Large devices: (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Menu */
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
+
+    #menu>li {
+        padding-left: 2rem;
+        font-size: 150%;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Hero*/
+    #hero {
+        height: 90vh;
+    }
+
+    #hero-text {
+        font-size: 200%;
+        bottom: 15px;
+        width: 80%;
+        min-height: 160px;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 5%;
+    }
+
+    /* About us section */
+    #about-us {
+        height: 40vh;
+    }
+
+    #about-us-bg h2 {
+        font-size: 250%;
+        padding-top: 80px;
+    }
+
+    #about-us p {
+        font-size: 200%;
+        padding-bottom: 60px;
+    }
+}   
