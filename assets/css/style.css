@@ -419,6 +419,27 @@ hr {
     #about-us-page  p{
         font-size: 120%;
     }
+
+    /* Sign up page*/
+    #sign-up-page {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100svh;
+    }
+
+    #signup-form-page {
+        padding-right: 100px;
+        padding-left: 100px;
+
+    }
+
+    #signup-form-page>p {
+        color: #fafafa;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
 }
 
 
@@ -499,5 +520,32 @@ hr {
 
     #about-us-page p {
         font-size: 120%;
+    }
+
+    /* Sign up page*/
+    #signup-form-page {
+        padding-right: 200px;
+        padding-left: 200px;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-bottom: 50px;
+        font-size: 150%;
+        letter-spacing: 2px;
+    }
+
+    #signup-form-page > p {
+        color: #fafafa;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    #signup-form-page h2 {
+        font-size: 45px;
+    }
+
+    #first-name-p,
+    #email-address-p,
+    #join-button-p {
+        height: 35px;
     }
 }   
