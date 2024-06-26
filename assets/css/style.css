@@ -316,7 +316,30 @@ h3 {
 
     #about-us p {
         font-size: 170%;
-        padding-bottom: 40px;
+        padding-bottom: 15px;
+    }
+
+    /* Sign up form*/
+    #sign-up {
+        min-height: 240px;
+    }
+
+    #signup-form {
+        padding-bottom: 30%;
+    }
+
+    #signup-form>h2 {
+        display: none;
+    }
+
+    .signup-text {
+        font-size: 200%;
+    }
+
+    .item p {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 150%;
     }
 }
 
