@@ -1,131 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pirate Hub
 
-Welcome Parwiz Hussaini,
+The Pirate Hub website is an online destination for everything related to pirates. Users of  our site can share their enthusiasm and passion and engage in presuing there hobby while they dive into the thrilling and adventurers world of pirates.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users can also sign-up to our newsletter and get inform on our future activities
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![alt text](<assets/readmeimages/different screen sizes.png>)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Navigation Bar
+  
+  - Logo Link: The Pirate Hub logo on the left side of the nav bar, which also acts as a link to the home page.
+  - The other navigation links are at the right : Home, About us and Sign up that navigates to other pages of Pirate Hub.
+  ##
+  ![alt text](assets/readmeimages/Navbar-screen-shot.PNG)
+  ##
 
-`python3 -m http.server`
+- The Header
 
-A blue button should appear to click: _Make Public_,
+  - The first element in the header is the hero image which contain an image of a pirate ship.
+  - Then thereb is a text with the name of the site.
+  - There is also a message which provide the user with clear information about who this site is for.
+  ##
+  ![alt text](assets/readmeimages/Header-screen-shot.PNG)
+  ##
 
-Another blue button should appear to click: _Open Browser_.
+- The About-us Section
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+  - This section of the homepage contain a brief text about the site.
+  - This text give a welcome message to the user along with an overall picture of what to expext on this site.
+  - This section also contain a clickable text which will sent the user to the about us page.
+  ##
+  ![alt text](<assets/readmeimages/about us section-screen-shot.PNG>)
+  ##
 
-A blue button should appear to click: _Make Public_,
+- The Sign-up Section
 
-Another blue button should appear to click: _Open Browser_.
+  - The sign-up section contain a CTA and a sign-up form
+  - This form collect information about the user, (their name and email address).
+  - This section gives the users a chans to sign-up to the news letter and be part of pirate hub community.
+  ##
+  ![alt text](assets/readmeimages/Signup-section-screen-shot.PNG)
+  ##
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The Footer
 
-To log into the Heroku toolbelt CLI:
+  - The footer clickable contains social-media icons. 
+  - These social media links give a chans to our users to be able to connect with us on social media.
+  ##
+  ![alt text](assets/readmeimages/Footer-section-screen-shot.PNG)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Testing 
 
-### Connecting your Mongo database
+- I've tested that this website works on different browsers.
+- I confirmed that this website functions well, looks good on different screen size and is responsive.
+- I confirmed that all the links on this website such as the links in the navbar (logo, homepage, about-us, sign-up) and the social media links in the footer (Facebook, X, youtube, instagram) works.
+- I've confirmed that the sign-up form functions as it should.
+- I confirmed that all texts on the website is readable.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Bugs
 
-------
+#### un-Solved bugs
 
-## Release History
+- I haven't encountered any technical bugs during the project, exept the fact that the texts background of the about section and sign up section on the homepage overlaps othe areas as the screen changes.(which is not fixed yet).
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Vlidator Testing
 
-**June 18, 2024,** Add Mongo back into template
+- HTML
+  - No errors were found when testing the html code with the official (W3C) validator.
+- CSS
+  - No errors were spoted when passing trough the official (jigsaw) validator.
+- Accessibility
+  - I have confirmed that the font and colors were easy to read and the images were suitable to the website and everything were accessable by running the site trough lighthouse in devtools.
+  #
+  ![alt text](assets/readmeimages/Lighthouse-status.PNG)
+  
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+## Deployment
 
-**May 28 2024:** Fix Mongo and Links installs
+  - This site eas deployed to GitHub pages. The steps to deploy are as follows:
+    - in the github repository navigate to the setting tab.
+    - From the source section drop-down menu select the master branch.
+    - Once the master branch has been selected, the page will provide the link to the live website.
 
-**April 26 2024:** Update node version to 16
+  Here is the live website: [Pirate Hub](https://ngisng.github.io/Pirate_Hub_finale/index.html) 
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Credits
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  #### Content
+  - The code to make the social media links was taken from loverunning project.
+  #### Media
+  - The images were taken from the adobe website.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

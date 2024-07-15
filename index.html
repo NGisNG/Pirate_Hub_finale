@@ -1,131 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 
-    <!-- Meta Tags for search engines (SEO) -->
-    <meta name="description"
-        content="Join the Pirate Enthusiasts community to explore the world of pirates, their history, legends, Engage with fellow pirate fans!">
-    <meta name="keywords"
-        content="pirates, pirate enthusiasts, pirate history, pirate legends, pirate community, pirate ships, pirate lifestyle, pirate treasure, pirate island, pirate fishing, pirate adventure, pirate hub, pirate flea market, pirate treasure map, pirate treasure hunt,">
 
-    <!--title-->
-    <title>Pirate Hub</title>
+  <!-- Meta Tags for search engines (SEO) -->
+  <meta name="description"
+    content="Join the Pirate Enthusiasts community to explore the world of pirates, their history, legends, Engage with fellow pirate fans!">
+  <meta name="keywords"
+    content="pirates, pirate enthusiasts, pirate history, pirate legends, pirate community, pirate ships, pirate lifestyle, pirate treasure, pirate island, pirate fishing, pirate adventure, pirate hub, pirate flea market, pirate treasure map, pirate treasure hunt,">
+  <!--title-->
+  <title>Pirate Hub</title>
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 
+
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <!-- Header element -->
-    <header>
-        <div class="logo-container">
-            <a href="index.html"><img src="assets/logo/Logo Transparent (1).jpg" alt="Pirate Logo" class="logo"></a>
+
+  <!--Header element-->
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="assets/logo/Logo Transparent (1).jpg" alt="Pirate Logo" class="logo"></a>
+    </div>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--main content-->
+  <main>
+    <section id="hero">
+      <div id="hero-text">
+        <h1>Pirate Hub</h1>
+        <h3>Dive into the world of pirates and learn about their history.</h3>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div id="about-us-bg">
+
+        <div id="about-us.cover">
+          <h2>Embark on a Pirate Adventure</h2>
+          <div id="about-us-text">
+            <a href="about.html">
+              <p>Ahoy, mateys! Welcome aboard, the ultimate online sanctuary for pirate enthusiasts. Dive into thrilling
+                legends, discover hidden treasures, and embark on epic adventures. Celebrate the exploits of pirates like
+                Blackbeard and Anne Bonny, and unravel the mysteries of pirate lore. At Pirate Hub, the spirit of
+                adventure
+                lives on. Welcome aboard, and let the treasure hunt begin!
+                <strong>Read more ...</strong>
+              </p>
+            </a>
+          </div>
         </div>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"
-                style="color: #ffffff;"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
+        
+      </div>
+    </section>
 
-        <link rel="stylesheet" href="assets/css/style.css" />
+    <section id="sign-up">
+      <div class="sign-up-container">
 
-    </header>
+        <div class="item item-1">
+          <h2 class="signup-text">Krakens signed up!</h2>
+          <p>Ledgends have it if you sign up to our news letter we may send you a treasure map or a chest full of coins!
+          </p>
 
-    <main>
-        <section id="hero">
-            <div id="hero-text">
-              <h1>Pirate Hub</h1>
-              <h3>Dive into the world of pirates and learn about their history.</h3>
-            </div>
-          </section>
+        </div>
 
-          <section id="about-us">
-            <div id="about-us-bg">
-      
-              <div id="about-us.cover">
-                <h2>Embark on a Pirate Adventure</h2>
-                <div id="about-us-text">
-                  <a href="about.html">
-                    <p>Ahoy, mateys! Welcome aboard, the ultimate online sanctuary for pirate enthusiasts. Dive into thrilling
-                      legends, discover hidden treasures, and embark on epic adventures. Celebrate the exploits of pirates like
-                      Blackbeard and Anne Bonny, and unravel the mysteries of pirate lore. At Pirate Hub, the spirit of
-                      adventure
-                      lives on. Welcome aboard, and let the treasure hunt begin!
-                      <strong>Read more ...</strong>
-                    </p>
-                  </a>
-                </div>
-              </div>
-              
-            </div>
-          </section>
+        <div class="item item-2">
+          <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
+            <h2>Let's get you signed up!</h2>
 
-          <section id="sign-up">
-            <div class="sign-up-container">
-      
-              <div class="item item-1">
-                <h2 class="signup-text">Krakens signed up!</h2>
-                <p>Ledgends have it if you sign up to our news letter we may send you a treasure map or a chest full of coins!
-                </p>
-      
-              </div>
-      
-              <div class="item item-2">
-                <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
-                  <h2>Let's get you signed up!</h2>
-      
-                  <label for="first-name">First Name</label>
-                  <input type="text" id="first-name" class="text-input" name="first-name" required>
-                  <br>
-      
-                  <label for="email-address">Email Address</label>
-                  <input type="email" id="email-address" class="text-input" name="email-address" required>
-                  <br>
-      
-                  <button type="submit" class="join-button"><strong>come aboard</strong></button>
-                </form>
-      
-              </div>
-      
-            </div>
-          </section>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" class="text-input" name="first-name" required>
+            <br>
 
-    </main>
+            <label for="email-address">Email Address</label>
+            <input type="email" id="email-address" class="text-input" name="email-address" required>
+            <br>
 
-    <!--footer-->
-    <footer>
-        <ul id="social-icons">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"
-                        style="color: #ffffff;"></i></a>
-            </li>
-            <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener"
-                    aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"
-                        style="color: #ffffff;"></i></a>
-            </li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"
-                        style="color: #ffffff;"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"
-                        style="color: #ffffff;"></i></a>
-            </li>
+            <button type="submit" class="join-button"><strong>come aboard</strong></button>
+          </form>
 
-    </footer>
-    <!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/2b549eadd9.js" crossorigin="anonymous"></script>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--footer-->
+  <footer>
+    <ul id="social-icons">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"
+            style="color: #ffffff;"></i></a>
+      </li>
+      <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener"
+          aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"
+            style="color: #ffffff;"></i></a>
+      </li>
+      <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+          aria-label="visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"
+            style="color: #ffffff;"></i></a>
+      </li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"
+            style="color: #ffffff;"></i></a>
+      </li>
+
+  </footer>
+
+  <!-- Font awesome kit -->
+  <script src="https://kit.fontawesome.com/2b549eadd9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
