@@ -385,6 +385,10 @@ hr {
     }
 
     /* About us section*/
+    #about-us {
+        height: inherit;
+    }
+    
     #about-us-bg h2 {
         font-size: 200%;
     }
