@@ -78,7 +78,7 @@ Users can also sign-up to our newsletter and get inform on our future activities
 
 #### un-Solved bugs
 
-- I haven't encountered any technical bugs during the project, exept the fact that the texts background of the about section and sign up section on the homepage overlaps othe areas as the screen changes.(which is not fixed yet).
+- I haven't encountered any technical bugs during the project, exept the fact that the texts background of the about section and sign up section on the homepage overlaps other areas as the screen changes.(which is fixed now).
 
 ### Vlidator Testing
 
