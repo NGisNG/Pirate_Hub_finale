@@ -50,6 +50,21 @@ Users can also sign-up to our newsletter and get inform on our future activities
   ##
   ![alt text](assets/readmeimages/Footer-section-screen-shot.PNG)
 
+  ##
+- About Us Page
+  - A seprate page with a clickable link in the nav-bar
+  - This page give the user a more in dept discribtion about the website
+  ## 
+  ![alt text](<assets/readmeimages/about us page-screen-shot.PNG>)
+
+  ##
+- Sign Up Page
+  - This page can be accessed from the nav-bar
+  - The sign-up page contain a CTA and a sign-up form
+  - This form collect information about the user, (their name and email address).
+  - This page is dedicated to give the users a chans to sign-up to the news letter and be part of pirate hub community.
+  ##
+  ![alt text](assets/readmeimages/Signup-page-screen-shot.PNG)
 
 ## Testing 
 
@@ -74,7 +89,7 @@ Users can also sign-up to our newsletter and get inform on our future activities
 - Accessibility
   - I have confirmed that the font and colors were easy to read and the images were suitable to the website and everything were accessable by running the site trough lighthouse in devtools.
   #
-  ![alt text](assets/readmeimages/Lighthouse-status.PNG)
+  ![alt text](assets/readmeimages/Lighthouse-status-higher.PNG)
   
 
 ## Deployment
